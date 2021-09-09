@@ -23,8 +23,48 @@ class _MainState extends State<Main> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                CalculatorButton(),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
+                CalculatorButton(digit: "1",),
               ],
             ),
           ],

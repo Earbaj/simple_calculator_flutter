@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CalculatorButton extends StatelessWidget {
-  const CalculatorButton({Key? key}) : super(key: key);
+  final String digit;
+  const CalculatorButton({Key? key, required this.digit}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class CalculatorButton extends StatelessWidget {
           ),
           onPressed: () {},
           child: Text(
-            "1",
+            digit,
             style: GoogleFonts.rubik(
               textStyle: TextStyle(fontSize: 24.0),
             ),
