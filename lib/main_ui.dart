@@ -16,6 +16,8 @@ class _MainState extends State<Main> {
   String textToDisplay = "";
   String res = "";
   String Operation = "";
+
+  //Function wich callback returned with value and apply calculation with their operations
   void buttonCalick(String btnValue){
     print(btnValue);
     if(btnValue == "AC"){
@@ -69,11 +71,13 @@ class _MainState extends State<Main> {
         title: Text("Calculator"),
         centerTitle: true,
       ),
+      //Root of all design 
       body: Container(
-        color: Colors.indigo,
+        color: Colors.grey,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
+            //Show result on display Container
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
@@ -108,6 +112,7 @@ class _MainState extends State<Main> {
                 ),
               ),
             ),
+            //Key Layout Row
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [

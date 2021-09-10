@@ -5,6 +5,7 @@ class CalculatorButton extends StatelessWidget {
   final String digit;
   final Color color;
   final Color textColor;
+  // Function callback for which button press and return value;
   final Function callback;
   const CalculatorButton({Key? key,
     required this.digit,
